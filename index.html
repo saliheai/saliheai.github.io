@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salihe AI Studio | Yapay zeka reklam videosu</title>
+<meta name="description" content="Markanız için yapay zeka ile reklam videosu. AI ad videos for brands. فيديوهات إعلانية بالذكاء الاصطناعي.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Salihe AI Studio">
+<meta property="og:description" content="Yapay zeka ile reklam videosu · AI ad videos for brands · فيديوهات إعلانية بالذكاء الاصطناعي">
+<meta property="og:image" content="https://saliheai.github.io/moda.jpg">
+<meta property="og:url" content="https://saliheai.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2318110e'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' font-weight='700' text-anchor='middle' fill='%23ff3f86'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Inter:wght@400;500;600&family=Noto+Kufi+Arabic:wght@500;600&family=Noto+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light dark;
+--bg:light-dark(#f4ede5,#18110e);--bg2:light-dark(#eadfd3,#231915);--ink:light-dark(#1e1511,#f2e8dd);
+--mut:light-dark(#6b5a50,#b9a99c);--line:light-dark(#d8c9bb,#3a2c25);--acc:#ff3f86;--acc-ink:#fff;
+--serif:"Bodoni Moda",Georgia,serif;--sans:Inter,system-ui,sans-serif}
+:root[lang=ar]{--serif:"Noto Kufi Arabic","Bodoni Moda",serif;--sans:"Noto Sans Arabic",Inter,system-ui,sans-serif}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans);overflow-x:clip}
+:root[lang=ar] body{line-height:1.75}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.08;text-wrap:balance;margin:0}
+:root[lang=ar] :is(h1,h2,h3){line-height:1.35}
+h1{font-size:clamp(34px,6vw,54px)}h2{font-size:clamp(28px,4vw,40px);margin-bottom:10px}h3{font-size:22px}
+:root[lang=ar] h1{font-size:clamp(30px,5vw,46px)}
+p{margin:0}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto}
+.band{padding:clamp(28px,5vw,72px) max(5vw,16px)}
+.lead{color:var(--mut);max-width:56ch;font-size:17px}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;background:var(--acc);color:var(--acc-ink);font-weight:600;text-decoration:none;font-size:16px;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+:is(.btn,.ghost,.navb,.lang button):focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.ghost{display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:999px;border:1.5px solid var(--line);text-decoration:none;font-weight:500}
+.wa{width:20px;height:20px;flex:none}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px max(5vw,16px);border-bottom:1px solid var(--line)}
+.logo{font-family:"Bodoni Moda",serif;font-size:22px;font-weight:600;letter-spacing:.01em;white-space:nowrap}.logo b{color:var(--acc);font-weight:600}
+.hr{display:flex;align-items:center;gap:10px}
+.lang{display:flex;border:1.5px solid var(--line);border-radius:999px;padding:3px}
+.lang button{border:0;background:transparent;color:var(--mut);font:600 13px Inter,"Noto Sans Arabic",sans-serif;min-width:40px;height:36px;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+header .btn{min-height:44px;padding:0 16px;font-size:15px}
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(24px,5vw,64px);align-items:center}
+.hero .copy{display:grid;gap:22px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.proof{display:flex;flex-wrap:wrap;gap:28px;padding-top:6px}
+.proof div{display:grid}.proof strong{font-family:var(--serif);font-size:clamp(28px,4vw,36px);line-height:1.1}
+.proof span{color:var(--mut);font-size:14px}
+.phone{position:relative;justify-self:center;width:min(100%,340px);aspect-ratio:9/16;border-radius:34px;padding:10px;background:#0d0907;box-shadow:0 30px 60px -20px rgba(40,15,5,.55),0 0 0 1px rgba(255,255,255,.06) inset}
+.phone video{width:100%;height:100%;object-fit:cover;border-radius:26px;display:block;background:#000}
+.tag{position:absolute;inset-inline-start:22px;bottom:22px;background:rgba(0,0,0,.55);color:#fff;backdrop-filter:blur(6px);padding:6px 12px;border-radius:999px;font-size:13px}
+.snd{position:absolute;inset-inline-end:20px;top:20px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.5);color:#fff;cursor:pointer;display:grid;place-items:center}
+.alt{background:var(--bg2)}
+.head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+.navs{display:flex;gap:8px}.navb{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:transparent;color:var(--ink);font-size:18px;cursor:pointer}
+.strip{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;scrollbar-width:thin}
+.card{flex:0 0 clamp(220px,26vw,260px);scroll-snap-align:start;display:grid;gap:10px;align-content:start}
+.card .v{position:relative;aspect-ratio:9/16;border-radius:18px;overflow:hidden;background:#000}
+.card video{width:100%;height:100%;object-fit:cover;display:block}
+.card .snd{inset-inline-end:10px;top:10px}
+.card h3{font-size:19px}.card p{color:var(--mut);font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:24px}
+.step{padding:22px;border-radius:18px;background:var(--bg2);display:grid;gap:8px;align-content:start}
+.step i{font-style:normal;font-family:"Bodoni Moda",serif;font-size:40px;color:var(--acc);line-height:1}
+.step p{color:var(--mut)}
+.packs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:24px;align-items:stretch}
+.pack{border:1.5px solid var(--line);border-radius:22px;padding:26px;display:grid;gap:14px;align-content:start;background:var(--bg)}
+.pack.on{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc)}
+.pack .badge{justify-self:start;background:var(--acc);color:#fff;font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px}
+.price{font-family:"Bodoni Moda",serif;font-size:clamp(34px,4vw,42px);line-height:1;white-space:nowrap}.price small{font:500 15px var(--sans);color:var(--mut)}
+.price.ask{font:600 20px/1.3 var(--sans);white-space:normal}
+.pack ul{margin:0;padding-inline-start:18px;color:var(--mut);display:grid;gap:4px}
+.pack .btn,.pack .ghost{justify-content:center;margin-top:auto}
+.free{background:var(--acc);color:#fff}
+.free .inner{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.free p{max-width:58ch;opacity:.92;margin-top:8px}
+.free .btn{background:#fff;color:#1e1511}
+footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+footer a{text-decoration:none;font-weight:500;color:var(--ink)}
+.ltr{direction:ltr;unicode-bidi:isolate}
+@media(max-width:860px){.packs,.steps{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:700px){.hero{grid-template-columns:minmax(0,1fr)}.phone{width:min(100%,300px)}header .btn span{display:none}header{padding-inline:12px}.logo{font-size:19px}}
+@media(max-width:380px){.logo b,.logo .x{display:none}}
+@media(prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}html{scroll-behavior:auto}}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Salihe <b>AI</b> <span class="x">Studio</span></div>
+  <div class="hr">
+    <div class="lang" role="group" aria-label="Language">
+      <button data-l="tr" aria-pressed="false">TR</button><button data-l="en" aria-pressed="false">EN</button><button data-l="ar" aria-pressed="false" lang="ar">ع</button>
+    </div>
+    <a class="btn wa-link" data-m="hello" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg><span data-t="waBtn"></span></a>
+  </div>
+</header>
+
+<main>
+<section class="band">
+  <div class="wrap hero">
+    <div class="copy">
+      <h1 data-t="h1"></h1>
+      <p class="lead" data-t="lead"></p>
+      <div class="cta">
+        <a class="btn wa-link" data-m="free" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg><span data-t="freeBtn"></span></a>
+        <a class="ghost" href="#paketler" data-t="seePacks"></a>
+      </div>
+      <div class="proof">
+        <div><strong data-t="p1n"></strong><span data-t="p1"></span></div>
+        <div><strong data-t="p2n"></strong><span data-t="p2"></span></div>
+      </div>
+    </div>
+    <div class="phone">
+      <video src="moda.mp4" poster="moda.jpg" autoplay muted loop playsinline preload="auto"></video>
+      <span class="tag" data-t="tag"></span>
+      <button class="snd"></button>
+    </div>
+  </div>
+</section>
+
+<section class="band alt" id="isler">
+  <div class="wrap">
+    <div class="head">
+      <div><h2 data-t="workH"></h2><p class="lead" data-t="workL"></p></div>
+      <div class="navs"><button class="navb" data-d="-1"></button><button class="navb" data-d="1"></button></div>
+    </div>
+    <div class="strip" id="strip" tabindex="0"></div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2 data-t="howH"></h2>
+    <div class="steps" id="steps"></div>
+  </div>
+</section>
+
+<section class="band alt" id="paketler">
+  <div class="wrap">
+    <h2 data-t="packH"></h2>
+    <p class="lead" data-t="packL"></p>
+    <div class="packs" id="packs"></div>
+  </div>
+</section>
+
+<section class="band free">
+  <div class="wrap inner">
+    <div><h2 data-t="freeH"></h2><p data-t="freeP"></p></div>
+    <a class="btn wa-link" data-m="free" href="#"><svg class="wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg><span data-t="freeBtn"></span></a>
+  </div>
+</section>
+</main>
+
+<footer class="band">
+  <span>Salihe AI Studio</span>
+  <span><span data-t="fIg"></span>: <a class="ltr" href="https://www.instagram.com/salihe.ai/">@salihe.ai</a> · <span data-t="fWa"></span>: <a class="wa-link ltr" data-m="short" href="#">+90 545 714 37 28</a> · <span data-t="fMail"></span>: <a class="ltr" href="mailto:hello.saliheai@gmail.com">hello.saliheai@gmail.com</a></span>
+</footer>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="wa" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></defs></svg>
+
+<script>
+{
+const PHONE='905457143728';
+const T={
+tr:{
+ title:'Salihe AI Studio | Yapay zeka reklam videosu',
+ waBtn:"WhatsApp'tan yaz",h1:'Markanız için yapay zeka ile reklam videosu',
+ lead:'Çekim, manken ya da stüdyo masrafı olmadan. Ürün fotoğraflarınızdan Instagram, TikTok ve web sitenize hazır, sinematik kısa videolar hazırlıyorum.',
+ freeBtn:'Ücretsiz örnek iste',seePacks:'Paketleri gör',
+ p1n:'32 bin',p1:'izlenme, bu moda videosu',p2n:'14,9 bin',p2:'izlenme, son 30 günde',tag:'Moda kampanyası',
+ workH:'Örnek işler',workL:'Her sektöre göre farklı bir dil. Kendi sektörünüze en yakın örneğe bakın.',
+ work:[['Moda','Tesettür ve kadın giyim için yürüyüş sahnesi. Bu video 32 bin izlendi.'],['Cilt bakım','Bir cilt bakım markası için ürün ve kullanım videosu.'],['Kozmetik','Paris kafesinde ruj. Ürünü bir hikayenin içinde gösteriyor.'],['İçecek','Renkli, enerjik bir ürün tanıtımı. Her tat için ayrı renk.'],['Emlak','Henüz bitmemiş bir projenin bitmiş halini gösteren sahne.']],
+ howH:'Nasıl çalışıyoruz',
+ steps:[['Fotoğrafı gönderin','Ürününüzün 1-2 net fotoğrafı ve vermek istediğiniz mesaj (yeni sezon, kampanya, indirim) yeterli.'],['Konsepti belirleyelim','Mekan, atmosfer ve tarzı birlikte seçiyoruz. Markanızın havasına uygun bir sahne kuruyorum.'],['Videonuz hazır',"Videoyu Instagram'a hazır formatta teslim ediyorum. Değiştirmek istediğiniz yer olursa birlikte düzeltiyoruz."]],
+ packH:'Paketler',packL:'İsterseniz önce ücretsiz kısa bir örnekle başlayabilirsiniz.',badge:'Önerilen',askPack:'Bu paketi sor',
+ packs:[['Deneme','1.500','TL',['1 reklam videosu (15-20 sn)','1 düzeltme hakkı',"Instagram'a hazır format"]],['Kampanya','4.000','TL',['3 reklam videosu','3 kapak görseli','Kampanya ya da yeni sezon için']],['Aylık','6.000','TL / ay',['Haftada 1, ayda 4 video','4 görsel','Düzenli içerik akışı']]],
+ freeH:'Karar vermeden önce görün',freeP:'Ürününüzle 5-8 saniyelik kısa bir örnek hazırlayayım, ücretsiz. Beğenirseniz devam ederiz, beğenmezseniz hiçbir yükümlülüğünüz yok.',
+ fIg:'Instagram',fWa:'WhatsApp',fMail:'E-posta',
+ snd:['Sesi aç','Sesi kapat'],prev:'Önceki',next:'Sonraki',
+ m:{hello:'Merhaba Salihe Hanım, markam için yapay zeka reklam videosu hakkında bilgi almak istiyorum.',free:'Merhaba Salihe Hanım, markam için ücretsiz kısa örnek video istiyorum.',short:'Merhaba Salihe Hanım,',pack:n=>`Merhaba Salihe Hanım, ${n} paketi hakkında bilgi almak istiyorum.`}
+},
+en:{
+ title:'Salihe AI Studio | AI ad videos for brands',
+ waBtn:'Message on WhatsApp',h1:'AI-made ad videos for your brand',
+ lead:'No shoot, no models, no studio costs. I turn your product photos into short cinematic videos ready for Instagram, TikTok and your website.',
+ freeBtn:'Request a free sample',seePacks:'See packages',
+ p1n:'32K',p1:'views on this fashion video',p2n:'14.9K',p2:'views in the last 30 days',tag:'Fashion campaign',
+ workH:'Selected work',workL:'Each sector gets its own visual language. Look at the example closest to yours.',
+ work:[['Fashion','A street walk scene for modest and women\'s fashion. This video reached 32K views.'],['Skincare','A product and routine video for a skincare brand.'],['Cosmetics','Lipstick at a Paris café. The product shown inside a story.'],['Beverage','A bright, energetic product reveal. One colour for each flavour.'],['Real estate','Shows a project still under construction as the finished home.']],
+ howH:'How it works',
+ steps:[['Send a photo','One or two clear photos of your product and your message (new season, campaign, sale) are enough.'],['Agree on the concept','We choose the setting, mood and style together. I build a scene that fits your brand.'],['Your video is ready','I deliver the video ready for Instagram. If you want anything changed, we fix it together.']],
+ packH:'Packages',packL:'You can start with a short free sample first.',badge:'Recommended',askPack:'Ask about this package',priceAsk:'Price on request',
+ packs:[['Trial',0,0,['1 ad video (15-20 sec)','1 revision','Instagram-ready format']],['Campaign',0,0,['3 ad videos','3 cover images','For a campaign or new season']],['Monthly',0,0,['1 video a week, 4 a month','4 images','A steady flow of content']]],
+ freeH:'See it before you decide',freeP:'I\'ll make a 5-8 second sample with your product, free. If you like it, we continue. If not, you owe nothing.',
+ fIg:'Instagram',fWa:'WhatsApp',fMail:'Email',
+ snd:['Turn sound on','Turn sound off'],prev:'Previous',next:'Next',
+ m:{hello:'Hello Salihe, I\'d like to learn more about an AI ad video for my brand.',free:'Hello Salihe, I\'d like a free short sample video for my brand.',short:'Hello Salihe,',pack:n=>`Hello Salihe, I'd like to know more about the ${n} package.`}
+},
+ar:{
+ title:'Salihe AI Studio | فيديوهات إعلانية بالذكاء الاصطناعي',
+ waBtn:'تواصل عبر واتساب',h1:'فيديوهات إعلانية لعلامتك التجارية بالذكاء الاصطناعي',
+ lead:'بدون تصوير أو عارضين أو تكاليف استوديو. أحوّل صور منتجاتك إلى فيديوهات قصيرة بطابع سينمائي، جاهزة لإنستغرام وتيك توك وموقعك الإلكتروني.',
+ freeBtn:'اطلب عينة مجانية',seePacks:'عرض الباقات',
+ p1n:'32 ألف',p1:'مشاهدة لفيديو الأزياء هذا',p2n:'14.9 ألف',p2:'مشاهدة خلال آخر 30 يومًا',tag:'حملة أزياء',
+ workH:'نماذج من أعمالي',workL:'لكل قطاع لغة بصرية خاصة. شاهد المثال الأقرب إلى مجالك.',
+ work:[['أزياء','مشهد سير في الشارع للأزياء المحتشمة والنسائية. حقق هذا الفيديو 32 ألف مشاهدة.'],['العناية بالبشرة','فيديو يعرض المنتج وطريقة استخدامه لعلامة عناية بالبشرة.'],['مستحضرات التجميل','أحمر شفاه في مقهى باريسي. المنتج يظهر داخل قصة.'],['مشروبات','عرض منتج حيوي وملوّن. لون مختلف لكل نكهة.'],['عقارات','يعرض مشروعًا قيد الإنشاء كما سيبدو بعد اكتماله.']],
+ howH:'كيف نعمل',
+ steps:[['أرسل الصور','تكفي صورة أو صورتان واضحتان لمنتجك، مع الرسالة التي تريد إيصالها (موسم جديد، حملة، تخفيضات).'],['نحدد الفكرة','نختار المكان والأجواء والأسلوب معًا، وأبني مشهدًا يناسب هوية علامتك.'],['الفيديو جاهز','أسلّمك الفيديو بصيغة جاهزة لإنستغرام. وإذا أردت تعديل أي شيء نعدّله معًا.']],
+ packH:'الباقات',packL:'يمكنك البدء بعينة قصيرة مجانية أولًا.',badge:'الأنسب',askPack:'اسأل عن هذه الباقة',priceAsk:'السعر عند الطلب',
+ packs:[['التجربة',0,0,['فيديو إعلاني واحد (15-20 ثانية)','تعديل واحد','صيغة جاهزة لإنستغرام']],['الحملة',0,0,['3 فيديوهات إعلانية','3 صور غلاف','لحملة أو موسم جديد']],['الشهرية',0,0,['فيديو كل أسبوع، 4 فيديوهات شهريًا','4 صور','محتوى منتظم طوال الشهر']]],
+ freeH:'شاهد قبل أن تقرر',freeP:'أجهّز لك عينة قصيرة من 5 إلى 8 ثوانٍ لمنتجك مجانًا. إن أعجبتك نكمل، وإن لم تعجبك فلا التزام عليك.',
+ fIg:'إنستغرام',fWa:'واتساب',fMail:'البريد الإلكتروني',
+ snd:['تشغيل الصوت','إيقاف الصوت'],prev:'السابق',next:'التالي',
+ m:{hello:'مرحبًا صالحة، أود الاستفسار عن فيديو إعلاني بالذكاء الاصطناعي لعلامتي التجارية.',free:'مرحبًا صالحة، أود الحصول على عينة فيديو قصيرة مجانية لعلامتي التجارية.',short:'مرحبًا صالحة،',pack:n=>`مرحبًا صالحة، أود الاستفسار عن باقة ${n}.`}
+}};
+const FILES=['moda','ciltbakim','kozmetik','icecek','emlak'];
+const OFF='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M17 9l4 6M21 9l-4 6"/></svg>';
+const ON='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>';
+const icon='<svg class="wa" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>';
+const wa=m=>'https://wa.me/'+PHONE+'?text='+encodeURIComponent(m);
+const strip=document.getElementById('strip');
+let L='tr';
+
+strip.innerHTML=FILES.map(f=>`<div class="card"><div class="v"><video src="${f}.mp4" poster="${f}.jpg" muted loop playsinline preload="metadata"></video><button class="snd"></button></div><h3></h3><p></p></div>`).join('');
+
+function sndBtn(b){const v=b.parentElement.querySelector('video');b.innerHTML=v.muted?OFF:ON;b.setAttribute('aria-label',T[L].snd[v.muted?0:1])}
+
+function render(l){
+ L=T[l]?l:'tr';const t=T[L],rtl=L==='ar';
+ document.documentElement.lang=L;document.documentElement.dir=rtl?'rtl':'ltr';document.title=t.title;
+ for(const e of document.querySelectorAll('[data-t]'))e.textContent=t[e.dataset.t];
+ for(const b of document.querySelectorAll('.lang button'))b.setAttribute('aria-pressed',b.dataset.l===L);
+ strip.querySelectorAll('.card').forEach((c,i)=>{c.querySelector('h3').textContent=t.work[i][0];c.querySelector('p').textContent=t.work[i][1]});
+ document.getElementById('steps').innerHTML=t.steps.map((s,i)=>`<div class="step"><i>${i+1}</i><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join('');
+ document.getElementById('packs').innerHTML=t.packs.map((k,i)=>{const on=i===1;
+  const price=k[1]?`<div class="price">${k[1]} <small>${k[2]}</small></div>`:`<div class="price ask">${t.priceAsk}</div>`;
+  return `<div class="pack${on?' on':''}">${on?`<span class="badge">${t.badge}</span>`:''}<h3>${k[0]}</h3>${price}<ul>${k[3].map(x=>`<li>${x}</li>`).join('')}</ul><a class="${on?'btn':'ghost'} wa-link" data-pack="${k[0]}" href="#">${on?icon:''}${t.askPack}</a></div>`}).join('');
+ for(const a of document.querySelectorAll('.wa-link')){a.href=wa(a.dataset.pack?t.m.pack(a.dataset.pack):t.m[a.dataset.m]);a.target='_blank';a.rel='noopener'}
+ const [p,n]=document.querySelectorAll('.navb');
+ p.textContent=rtl?'→':'←';n.textContent=rtl?'←':'→';p.setAttribute('aria-label',t.prev);n.setAttribute('aria-label',t.next);
+ for(const b of document.querySelectorAll('.snd'))sndBtn(b);
+ try{localStorage.setItem('lang',L)}catch(e){}
+ const u=new URL(location.href);if(u.searchParams.get('lang')!==L){u.searchParams.set('lang',L);history.replaceState(null,'',u)}
+}
+
+for(const b of document.querySelectorAll('.lang button'))b.addEventListener('click',()=>render(b.dataset.l));
+for(const b of document.querySelectorAll('.snd'))b.addEventListener('click',()=>{const v=b.parentElement.querySelector('video');v.muted=!v.muted;sndBtn(b);if(!v.muted)v.play().catch(()=>{})});
+const io=new IntersectionObserver(es=>{for(const e of es){if(e.isIntersecting)e.target.play().catch(()=>{});else e.target.pause()}},{threshold:.4});
+for(const v of strip.querySelectorAll('video'))io.observe(v);
+const go=d=>{const c=strip.querySelector('.card');const s=document.documentElement.dir==='rtl'?-1:1;strip.scrollBy({left:s*d*((c?c.offsetWidth:240)+16),behavior:'smooth'})};
+for(const b of document.querySelectorAll('.navb'))b.addEventListener('click',()=>go(+b.dataset.d));
+strip.addEventListener('keydown',e=>{const s=document.documentElement.dir==='rtl'?-1:1;if(e.key==='ArrowRight')go(s);if(e.key==='ArrowLeft')go(-s)});
+
+let start=new URLSearchParams(location.search).get('lang');
+if(!T[start]){try{start=localStorage.getItem('lang')}catch(e){}}
+if(!T[start]){const n=(navigator.language||'').slice(0,2);start=n==='ar'?'ar':n==='tr'?'tr':'en'}
+render(start);
+}
+</script>
+</body>
+</html>
